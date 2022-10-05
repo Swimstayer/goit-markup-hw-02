@@ -138,6 +138,10 @@ body {
   color: var(--primary-text-color);
 }
 
+.team {
+  background-color: var(--portfolio-list-button);
+}
+
 .team-list-title {
   font-weight: 500;
   font-size: 16px;
@@ -167,6 +171,7 @@ body {
 }
 
 .footer-contacts-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -175,6 +180,7 @@ body {
 }
 
 .address-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -182,13 +188,17 @@ body {
   color: var(--primary-text-color-theme-dark);
 }
 
+.address-link:hover,
+.address-link:focus {
+  color: var(--text-accent);
+}
+
 .portfolio-link {
   color: var(--text-accent);
 }
 
 .portfolio-list-button {
-  width: 130px;
-  height: 38px;
+  padding: 6px 22px;
   background: var(--portfolio-list-button);
   border-radius: 4px;
   font-weight: 500;
